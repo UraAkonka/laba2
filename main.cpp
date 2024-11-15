@@ -21,6 +21,7 @@ void read(const string& filename, vector<string>& lines) {
 
 // Функция №2: 222
 void print(const vector<string>& lines) {
+    cout << "1,2,3";
 }
 // Функция №3: 3333333
 void write(const vector<string>& lines, const string& filename) {
