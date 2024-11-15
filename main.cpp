@@ -13,7 +13,7 @@ vector<string> readLinesFromFile(const string& filename) {
 // Функция №2: 222
 void printLines(const vector<string>& lines) {
 }
-// Функция №3: 333
+// Функция №3: 3333333
 void writeLinesToFile(const vector<string>& lines, const string& filename) {
 
 }
