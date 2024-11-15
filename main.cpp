@@ -4,17 +4,17 @@
 
 using namespace std;
 
-// Функция №1
+// Функция №1: 111
 vector<string> readLinesFromFile(const string& filename) {
     vector<string> lines;
     return lines;
 }
 
-// Функция №2
+// Функция №2: 222
 void printLines(const vector<string>& lines) {
 }
 
-// Функция №3
+// Функция №3: 333
 void writeLinesToFile(const vector<string>& lines, const string& filename) {
 }
 
@@ -27,5 +27,6 @@ int main() {
     printLines(lines);
     writeLinesToFile(lines, outputFilename);
     cout << "Программа завершена." << endl;
+    cout << "Проверка";
     return 0;
 }
