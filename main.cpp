@@ -6,7 +6,7 @@
 
 using namespace std;
 
-// Функция №1: 111
+// Функция №1: 1111
 void read(const string& filename, vector<string>& lines) {
     ifstream file(filename);
     string line;
