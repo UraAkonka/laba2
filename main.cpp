@@ -1,13 +1,22 @@
 #include <iostream>
+#include <fstream>
 #include <vector>
 #include <string>
+
 
 using namespace std;
 
 // Функция №1: 111
-vector<string> read(const string& filename) {
-    vector<string> lines;
-    return lines;
+void read(const string& filename, vector<string>& lines) {
+    ifstream file(filename);
+    string line;
+    while (getline(file, line)) {
+        lines.push_back(line);
+    }
+    // Для проверки правильности чтения можно выводить содержимое вектора:
+    for (const auto& str : lines) {
+        cout << str << endl;
+    }
 }
 
 // Функция №2: 222
@@ -22,7 +31,8 @@ int main() {
     string inputFilename = "input.txt";
     string outputFilename = "output.txt";
 
-    vector<string> lines = read(inputFilename);
+    vector<string> lines;
+    read("input.txt", lines);
     print(lines);
     write(lines, outputFilename);
     return 0;
