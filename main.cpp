@@ -6,17 +6,6 @@
 
 using namespace std;
 
-// Функция №1: 1111
-void read(const string& filename, vector<string>& lines) {
-    ifstream file(filename);
-    string line;
-    while (getline(file, line)) {
-        lines.push_back(line);
-    }
-    for (const auto& str : lines) {
-        cout << str << endl;
-    }
-}
 
 // Функция №2: 222
 void print(const vector<string>& lines) {
@@ -41,7 +30,6 @@ int main() {
     string outputFilename = "output.txt";
 
     vector<string> lines;
-    read("input.txt", lines);
     print(lines);
     write(lines, outputFilename);
     return 0;
