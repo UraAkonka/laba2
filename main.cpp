@@ -13,11 +13,10 @@ vector<string> readLinesFromFile(const string& filename) {
 // Функция №2: 222
 void printLines(const vector<string>& lines) {
 }
-
 // Функция №3: 333
 void writeLinesToFile(const vector<string>& lines, const string& filename) {
-}
 
+}
 int main() {
     setlocale(LC_ALL,"Russian");
     string inputFilename = "input.txt";
