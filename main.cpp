@@ -26,6 +26,5 @@ int main() {
     print(lines);
     write(lines, outputFilename);
     cout << "Программа завершена." << endl;
-    cout << "Проверка";
     return 0;
 }
