@@ -13,7 +13,6 @@ void read(const string& filename, vector<string>& lines) {
     while (getline(file, line)) {
         lines.push_back(line);
     }
-    // Для проверки правильности чтения можно выводить содержимое вектора:
     for (const auto& str : lines) {
         cout << str << endl;
     }
