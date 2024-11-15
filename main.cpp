@@ -5,16 +5,16 @@
 using namespace std;
 
 // Функция №1: 111
-vector<string> readLinesFromFile(const string& filename) {
+vector<string> read(const string& filename) {
     vector<string> lines;
     return lines;
 }
 
 // Функция №2: 222
-void printLines(const vector<string>& lines) {
+void print(const vector<string>& lines) {
 }
 // Функция №3: 3333333
-void writeLinesToFile(const vector<string>& lines, const string& filename) {
+void write(const vector<string>& lines, const string& filename) {
 
 }
 int main() {
@@ -22,9 +22,8 @@ int main() {
     string inputFilename = "input.txt";
     string outputFilename = "output.txt";
 
-    vector<string> lines = readLinesFromFile(inputFilename);
-    printLines(lines);
-    writeLinesToFile(lines, outputFilename);
-    cout << "Программа завершена." << endl;
+    vector<string> lines = read(inputFilename);
+    print(lines);
+    write(lines, outputFilename);
     return 0;
 }
